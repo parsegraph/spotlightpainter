@@ -1,4 +1,2 @@
-// TODO Implement this.
-export default function todo() {
-  return 42;
-}
+import SpotlightPainter from './SpotlightPainter';
+export default SpotlightPainter;

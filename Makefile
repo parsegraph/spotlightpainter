@@ -1,7 +1,8 @@
 DIST_NAME = spotlightpainter
 
 SCRIPT_FILES = \
-	src/index.ts
+	src/index.ts \
+	src/SpotlightPainter.ts
 
 all: build lint test coverage esdoc
 
