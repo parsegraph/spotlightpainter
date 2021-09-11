@@ -1,9 +1,9 @@
 {
-  "name": "parsegraph-TODO-PACKAGE-NAME",
+  "name": "parsegraph-spotlightpainter",
   "version": "1.6.0",
-  "description": "TODO-PACKAGE-NAME",
-  "main": "dist/parsegraph-TODO-PACKAGE-NAME.js",
-  "types": "dist/TODO-PACKAGE-NAME.d.ts",
+  "description": "spotlightpainter",
+  "main": "dist/parsegraph-spotlightpainter.js",
+  "types": "dist/spotlightpainter.d.ts",
   "scripts": {
     "coverage": "nyc npm run test",
     "test": "mocha -r @babel/register -r jsdom-global/register --recursive",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/parsegraph/TODO-PACKAGE-NAME.git"
+    "url": "git+ssh://git@github.com/parsegraph/spotlightpainter.git"
   },
   "author": "Rainback, Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/parsegraph/TODO-PACKAGE-NAME/issues"
+    "url": "https://github.com/parsegraph/spotlightpainter/issues"
   },
-  "homepage": "https://github.com/parsegraph/TODO-PACKAGE-NAME#readme",
+  "homepage": "https://github.com/parsegraph/spotlightpainter#readme",
   "nyc": {
     "extends": "@istanbuljs/nyc-config-babel",
     "reporter": [
@@ -54,7 +54,7 @@
     "prettier": "2.1.2",
     "source-map-loader": "^1.0.2",
     "source-map-support": "^0.5.19",
-    "ts-loader": "^8.0.12",
+    "ts-loader": "^9.2.5",
     "ts-node": "^9.1.1",
     "ts-shader-loader": "^1.0.6",
     "typescript": "^4.1.3",
