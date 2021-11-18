@@ -25,12 +25,8 @@ jobs:
     - name: make
       uses: GabrielBB/xvfb-action@v1
       with:
-        run: make
-    - run: |
-        mkdir parsegraph-spotlightpainter
-        cp -r -t parsegraph-spotlightpainter package.json package-lock.json README.md demo/ LICENSE dist/
-        tar cvzf parsegraph-spotlightpainter.tar.gz parsegraph-spotlightpainter/
+        run: make tar
     - uses: actions/upload-artifact@v2
       with:
         name: parsegraph-spotlightpainter-dev-${{ github.run_number }}
-        path: parsegraph-spotlightpainter-dev.tar.gz
+        path: parsegraph-spotlightpainter-dev.tgz
