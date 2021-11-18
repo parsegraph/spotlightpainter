@@ -1,2 +1,2 @@
-import SpotlightPainter from './SpotlightPainter';
+import SpotlightPainter from "./SpotlightPainter";
 export default SpotlightPainter;
