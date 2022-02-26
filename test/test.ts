@@ -1,5 +1,5 @@
 var assert = require("assert");
-import SpotlightPainter from "../dist/parsegraph-spotlightpainter";
+import SpotlightPainter from "../src/index";
 import { BasicGLProvider } from "parsegraph-compileprogram";
 import { mockDOM } from "node-canvas-webgl";
 mockDOM(window);
