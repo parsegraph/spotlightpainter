@@ -4523,12 +4523,12 @@ parsegraph-checkglerror@^1.5.1:
   resolved "https://registry.yarnpkg.com/parsegraph-checkglerror/-/parsegraph-checkglerror-1.5.1.tgz#2ec0143978af5d86ec69fc4fee56a6711e70fbdd"
   integrity sha512-7gU9/W9yZEFRVQ39ldE02e1r+N2cBh9LEWW91Az/SUxch1PV5N9t7CtB+0RdL46px/fDGSwWmzFc3VARCneuzg==
 
-parsegraph-color@^1.4.4:
+parsegraph-color@^1.4.4, parsegraph-color@^1.4.6:
   version "1.4.6"
   resolved "https://registry.yarnpkg.com/parsegraph-color/-/parsegraph-color-1.4.6.tgz#678f464cc531e19b7bdf4480135e37dd858520bd"
   integrity sha512-gOMXt8dTANqumQ/ZiGShRALtLcAYIKFDW9t5FU0bIiJUEodT4OoOGnXhrbhRuRTUVo7uJmdJLH1MEH+Ch7muWg==
 
-parsegraph-compileprogram@^2.1.1:
+parsegraph-compileprogram@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/parsegraph-compileprogram/-/parsegraph-compileprogram-2.2.1.tgz#428f73251d9d594a8270c86dab5021d17e9faaff"
   integrity sha512-jbqn4fEoT4Cw0+arjZgNQ8K7QTfqg6nQFvRuPuZwDkYD+N8LKMIn25izVsJ5xJ3ZGFFpfzPcNqmeW09xrz9EcA==
@@ -4537,15 +4537,15 @@ parsegraph-compileprogram@^2.1.1:
     parsegraph-rect "^1.4.5"
     parsegraph-shader "^1.5.2"
 
-parsegraph-matrix@^1.4.7:
+parsegraph-matrix@^1.4.8:
   version "1.4.8"
   resolved "https://registry.yarnpkg.com/parsegraph-matrix/-/parsegraph-matrix-1.4.8.tgz#7ad551174641e3a5dde9760102d66c302decad51"
   integrity sha512-yo8K6AGgkVEcQsp1CZisTyhVDeNhKLBqf/TmdtjyMppQKjlARRuqXPV5cO1QnRcEpKCPJKLbowXXlxJKD6di1w==
 
-parsegraph-pagingbuffer@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/parsegraph-pagingbuffer/-/parsegraph-pagingbuffer-1.5.1.tgz#945859976de166c6f515630748f13ad9b9a5a142"
-  integrity sha512-LgCwkcDsBkhtTUfpu5T2F1o9LVRxGQu1FUzDMH14omm2Hry/NT8Y+Cm1bUJe38dj5JYl5r+5cc28hPwaJbk+Kw==
+parsegraph-pagingbuffer@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/parsegraph-pagingbuffer/-/parsegraph-pagingbuffer-2.1.1.tgz#c03dbb8599384bd766299be0a155434493a41d7c"
+  integrity sha512-DhVXFh6MCDUkGQ3gJncjyVMmBnW1BOXxokf8FET5MuCH08GREBGVweOaIYPYqLZRdSOyiThdlG0MSM5W9+EWbg==
 
 parsegraph-rect@^1.4.5:
   version "1.4.5"
