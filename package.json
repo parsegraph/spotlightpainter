@@ -2,8 +2,8 @@
   "name": "parsegraph-spotlightpainter",
   "version": "2.3.2",
   "description": "spotlightpainter",
-  "main": "dist/parsegraph-spotlightpainter.js",
-  "types": "dist/spotlightpainter.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "coverage": "nyc npm run test",
     "test": "cross-env TS_NODE_PROJECT=\"tsconfig.testing.json\" mocha",
