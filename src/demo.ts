@@ -9,35 +9,35 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const glProvider = new BasicGLProvider();
 
-  const container = document.createElement("div");
-  container.appendChild(glProvider.container());
+  const container = glProvider.container();
   container.style.position = "absolute";
   container.style.left = "0px";
   container.style.top = "0px";
+  container.style.right = "0px";
+  container.style.bottom = "0px";
   container.style.pointerEvents = "none";
   root.appendChild(container);
   container.style.fontSize = "18px";
   container.style.fontFamily = "sans";
+  const painter = new SpotlightPainter(glProvider);
   const refresh = () => {
-    const painter = new SpotlightPainter(glProvider);
+    painter.drawSpotlight(
+      Math.random() * glProvider.width(),
+      Math.random() * glProvider.height(),
+      Math.random() * 400,
+      Color.random()
+    );
     const animate = () => {
+      const gl = glProvider.gl();
+      gl.enable(gl.BLEND);
+      gl.blendFunc(gl.SRC_ALPHA, gl.DST_ALPHA);
+      gl.viewport(0, 0, glProvider.width(), glProvider.height());
       const mat = make2DProjection(glProvider.width(), glProvider.height());
-      painter.drawSpotlight(
-        Math.random() * glProvider.width(),
-        Math.random() * glProvider.height(),
-        Math.random() * 400,
-        Color.random()
-      );
       glProvider.render();
       painter.render(mat);
       requestAnimationFrame(animate);
     };
     requestAnimationFrame(animate);
-    const rand = () => Math.floor(Math.random() * 255);
-    document.body.style.backgroundColor = `rgb(${rand()}, ${rand()}, ${rand()})`;
-    container.style.color = `rgb(${rand()}, ${rand()}, ${rand()})`;
-    container.style.left = `${Math.random() * root.clientWidth}px`;
-    container.style.top = `${Math.random() * root.clientHeight}px`;
   };
 
   const dot = document.createElement("div");
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     dotIndex = (dotIndex + 1) % dotState.length;
     dot.style.backgroundColor = dotState[dotIndex];
   };
-  const interval = 3000;
+  const interval = 1000;
   const dotInterval = 500;
   root.addEventListener("click", () => {
     if (timer) {
