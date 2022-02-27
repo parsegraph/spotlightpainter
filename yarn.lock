@@ -4518,51 +4518,45 @@ parse5@6.0.1:
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
   integrity sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
 
-parsegraph-checkglerror@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/parsegraph-checkglerror/-/parsegraph-checkglerror-1.5.1.tgz#2ec0143978af5d86ec69fc4fee56a6711e70fbdd"
-  integrity sha512-7gU9/W9yZEFRVQ39ldE02e1r+N2cBh9LEWW91Az/SUxch1PV5N9t7CtB+0RdL46px/fDGSwWmzFc3VARCneuzg==
-
-parsegraph-checkglerror@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/parsegraph-checkglerror/-/parsegraph-checkglerror-1.5.2.tgz#f47cbfeb785ba4c65b03465fbccde4be9659b617"
-  integrity sha512-sGzX99/LeHCNOayN4eApik6OTu/gBxh/9WJp+AvQFhwDzpAiAXNXqqWM3+rnHCWTBufPL6fpX/c/OsbTJY73Cw==
-
-parsegraph-color@^1.4.4, parsegraph-color@^1.4.6:
+parsegraph-color@^1.4.6:
   version "1.4.6"
   resolved "https://registry.yarnpkg.com/parsegraph-color/-/parsegraph-color-1.4.6.tgz#678f464cc531e19b7bdf4480135e37dd858520bd"
   integrity sha512-gOMXt8dTANqumQ/ZiGShRALtLcAYIKFDW9t5FU0bIiJUEodT4OoOGnXhrbhRuRTUVo7uJmdJLH1MEH+Ch7muWg==
 
-parsegraph-compileprogram@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/parsegraph-compileprogram/-/parsegraph-compileprogram-2.2.1.tgz#428f73251d9d594a8270c86dab5021d17e9faaff"
-  integrity sha512-jbqn4fEoT4Cw0+arjZgNQ8K7QTfqg6nQFvRuPuZwDkYD+N8LKMIn25izVsJ5xJ3ZGFFpfzPcNqmeW09xrz9EcA==
+parsegraph-compileprogram@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/parsegraph-compileprogram/-/parsegraph-compileprogram-2.2.3.tgz#8ef2715259234b324cc288b6fa5d26cb2c3aee94"
+  integrity sha512-iQwfmo3K9+kO1WiILJefl6a/XwmAUzqypr6vQDBS+PphOq+OGd+eM79ywfV5liNfRhHzRyJB3gWazgYzbyNORQ==
   dependencies:
-    parsegraph-color "^1.4.4"
-    parsegraph-rect "^1.4.5"
-    parsegraph-shader "^1.5.2"
+    parsegraph-color "^1.4.6"
+    parsegraph-method "^1.4.20"
+    parsegraph-rect "^1.4.6"
+    parsegraph-shader "^1.5.5"
 
-parsegraph-matrix@^1.4.8:
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/parsegraph-matrix/-/parsegraph-matrix-1.4.8.tgz#7ad551174641e3a5dde9760102d66c302decad51"
-  integrity sha512-yo8K6AGgkVEcQsp1CZisTyhVDeNhKLBqf/TmdtjyMppQKjlARRuqXPV5cO1QnRcEpKCPJKLbowXXlxJKD6di1w==
+parsegraph-matrix@^1.4.10:
+  version "1.4.10"
+  resolved "https://registry.yarnpkg.com/parsegraph-matrix/-/parsegraph-matrix-1.4.10.tgz#d73b665839d2eca693ab93bfe6b1ddf24084a408"
+  integrity sha512-LRmS9gi1XY+q7/KMj61ySnXYnd7MK+KPz1Pjk617fWlcSn1NvZIbAzRhkJXeta9SLBuf+GrX2yNg9LgNcqFdKA==
+
+parsegraph-method@^1.4.20:
+  version "1.4.20"
+  resolved "https://registry.yarnpkg.com/parsegraph-method/-/parsegraph-method-1.4.20.tgz#89097ebded9abab1691365c059fcfd48a0682213"
+  integrity sha512-LFqTsUhgN1k6UOBMvbPNL8vBMWeWfP1bBFqcEFbA6iNxt5X7q6XsaOCUAAAB0lf87Wt7rX9Go1HA2PrdO8P7mQ==
 
 parsegraph-pagingbuffer@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/parsegraph-pagingbuffer/-/parsegraph-pagingbuffer-2.1.1.tgz#c03dbb8599384bd766299be0a155434493a41d7c"
   integrity sha512-DhVXFh6MCDUkGQ3gJncjyVMmBnW1BOXxokf8FET5MuCH08GREBGVweOaIYPYqLZRdSOyiThdlG0MSM5W9+EWbg==
 
-parsegraph-rect@^1.4.5:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/parsegraph-rect/-/parsegraph-rect-1.4.5.tgz#aad0401b4c22381231014fd558ea967e01cdb45f"
-  integrity sha512-hgsP9N15mYeSISgeMU2l1GHJEjAouuFgdQW89EGTav8ntM93xC628Lz5+mYvx/mljbuC5lR/OBSw6EuV0A9GxA==
+parsegraph-rect@^1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/parsegraph-rect/-/parsegraph-rect-1.4.6.tgz#33d882683c12647a2c7db6e09183e6a192486d97"
+  integrity sha512-YvmNRLT0RxmcpUKhZwZ86dYMrQeEKETwg5A4IkJivuSNL7xK7ao4IgBIpfmyuyp/lIjMBOkqovc8/1OzR3O66g==
 
-parsegraph-shader@^1.5.2:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/parsegraph-shader/-/parsegraph-shader-1.5.3.tgz#f1e4b56414a50328acf97768dc01af2c0847552e"
-  integrity sha512-nAB1NXUC7wTJGLKaPP/UvKXcqcLOhp4+B9IUMozAWzNQvofe60R22wpQS3Y9IzFbzurDc9RSkR2ItnTJ1Cv8xg==
-  dependencies:
-    parsegraph-checkglerror "^1.5.1"
+parsegraph-shader@^1.5.5:
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/parsegraph-shader/-/parsegraph-shader-1.5.5.tgz#8bcca7476ff6f5589eac4e9d6fe1f1dbf2165961"
+  integrity sha512-T+SINOfipQm2KpunwvRB6oVkhkLZ3La4gJTcTdFbDulKvB/um7ioCXOjeDOP5sahdUFXez9Xt9WMMn+dCVqu+A==
 
 path-exists@^3.0.0:
   version "3.0.0"
