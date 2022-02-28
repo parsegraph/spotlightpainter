@@ -21,7 +21,7 @@
     "parsegraph-pagingbuffer": "^2.1.1"
   },
   "peerDependencies": {
-    "parsegraph-checkglerror": "^1.5.2"
+    "parsegraph-checkglerror": "^1.5.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
