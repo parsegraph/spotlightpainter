@@ -15,10 +15,10 @@
   },
   "homepage": "https://github.com/parsegraph/spotlightpainter#readme",
   "dependencies": {
-    "parsegraph-color": "^1.4.6",
-    "parsegraph-compileprogram": "^2.2.3",
-    "parsegraph-matrix": "^1.4.10",
-    "parsegraph-pagingbuffer": "^2.1.1"
+    "parsegraph-color": "^1.4.7",
+    "parsegraph-compileprogram": "^2.2.5",
+    "parsegraph-matrix": "^1.4.11",
+    "parsegraph-pagingbuffer": "^2.1.3"
   },
   "peerDependencies": {
     "parsegraph-checkglerror": "^1.5.3"
