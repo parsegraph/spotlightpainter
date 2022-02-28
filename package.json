@@ -1,6 +1,6 @@
 {
   "name": "parsegraph-spotlightpainter",
-  "version": "2.3.5",
+  "version": "2.3.6",
   "description": "spotlightpainter",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
